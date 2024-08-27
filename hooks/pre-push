@@ -1,0 +1,8 @@
+#!/bin/sh
+echo "Running pre-commit hook"
+
+HOOKS_DIR=$(cd "$(dirname "$0")" && pwd)
+SCRIPT_PATH="$HOOKS_DIR/pre-push.py"
+
+exec python "$SCRIPT_PATH"
+exit

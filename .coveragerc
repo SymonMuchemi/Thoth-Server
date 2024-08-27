@@ -1,0 +1,19 @@
+[run]
+branch = True
+source = .
+omit =
+    hooks/*
+    tests/*
+    manage.py
+    config.py
+
+[report]
+fail_under = 80
+exclude_lines =
+    # Exclude import statements
+    ^import
+    ^from
+    # Exclude logging statements
+    ^logging
+    ^if __name__ == "__main__":
+
