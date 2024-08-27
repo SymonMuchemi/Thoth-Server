@@ -1,11 +1,12 @@
-# amali-backend
-Amali Core
+# Thoth-Server
+
+Thoth core.
 
 ## Installation
-need to have python 3.10 and above installed
 
-```
+Python 3.10 and above is needed to run this porject.
 
+```bash
 # creating the virtual environment
 
 python -m venv env
